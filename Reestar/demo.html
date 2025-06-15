@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="one">Header</h1>
+    <div class="t">
+    <h1 class="two">Image gallery</h1>
+    </div>
+
+      <div class="img">
+        
+        <div class="img-one">
+            <img src="img.png" alt="">
+            <img src="img.png" alt="">
+            <img src="img.png" alt="">
+            <img src="img.png" alt="">
+        </div>
+
+        <div class="img-two">
+            <img src="img.png" alt="">
+            <img src="img.png" alt="">
+            <img src="img.png" alt="">
+            <img src="img.png" alt="">
+        </div>
+
+      </div>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: blanchedalmond;
+        }
+        .one{
+             color: white;
+             background-color: black;
+             padding: 10px;
+             width: fit-content;
+             border-radius: 10px;
+        }
+        .two{
+            color: blueviolet;
+            font-weight: bolder;
+            margin-top: 10px;
+
+        }
+      .t {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: 250px;
+    margin: 0 auto;
+    overflow: hidden; 
+    border-bottom: 10px solid red;
+    /* Ensures border curve is clean */
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.img-one{
+    display: flex;
+    justify-content: center;
+}
+.img-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.img{
+    border: 5px solid black;
+    width: fit-content;
+    padding: 20px;
+    margin: 50px auto;
+}
+    </style>
+</body>
+</html>
